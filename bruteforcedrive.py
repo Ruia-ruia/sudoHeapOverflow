@@ -1,3 +1,4 @@
+# just leaving this here because you might want to try automatin' the tweakin' n adjustin'
 import os
 import random
 
