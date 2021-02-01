@@ -16,7 +16,7 @@ let prepargs () =
         let arg1 = "-s" in
         let arg2 = String.make 44 '0' in
         let arg3 = "\\" in
-        let arg4 = String.make 70 '1' in
+        let arg4 = String.make 70 '0' in
 
         let args = Array.make 5 "" in
 
