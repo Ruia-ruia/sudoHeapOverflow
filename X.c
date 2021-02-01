@@ -8,6 +8,6 @@ _init(void)
 {
         setgid(0);
         setuid(0);
-        char *args[] = { "bash", NULL };
-        execv("/bin/bash", args);
+        char *argstoexecve[] = { "bash", NULL };
+        execv("/bin/bash", argstoexecve);
 }
