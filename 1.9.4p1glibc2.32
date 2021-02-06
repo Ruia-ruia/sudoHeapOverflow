@@ -1,4 +1,6 @@
-(* 1.9.4p2 and 1.9.5p1 *)
+(* 1.9.4p2 and 1.9.5p1
+with glibc 2.32 (name switch services vers.)
+*)
 
 let prepenv () =
         let env = Array.make (2155) "\\" in
